@@ -1,3 +1,77 @@
+body {
+    background-color: white;
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #57a88d;
+    padding: 20px;
+    position: sticky;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 0px;
+}
+
+section {
+    background-color: white;
+    width: 40%;
+    margin-left: 20%;
+    border: 10px solid #3f6a5c;
+    border-radius: 20px;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    margin-left: 1%;
+    float: left;
+    height: 5700px;
+}
+
+footer {
+    clear: both;
+    padding: 1px;
+}
+
+.hr_section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: #979599;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+
+.aside {
+    background-color: #3f6a5c;
+    border-radius: 3%;
+    position: sticky;
+    top: 80px;
+}
+
+#humita_aside {
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+
+hr {
+    width: 70%;
+}
+
+.datos {
+    color: #b7bbc6;
+}
+
+.textoblanco {
+    color: white;
+}
+
 .centrado {
     text-align: center;
 }
@@ -14,15 +88,6 @@
     width: 500px;
 }
 
-body {
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 4500px;
-    font-family: 'Georama', sans-serif;
-    font-size: 20px;
-}
-
 #ingredientes {
     width: 20px;
 }
@@ -35,15 +100,40 @@ body {
 
 .imagenes {
     width: 500px;
-    padding-left: 150px;
 }
 
 
 .articulo_margen {
-    background-color: ghostwhite;
-    margin: 100px;
-    padding: 20px;
     font-size: 20px;
 }
 
 
+#whatsapp {
+    position: fixed;
+    width: 100px;
+    right: 2%;
+    bottom: 2%;
+}
+
+#contactanos {
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    color: black;
+}
+
+.icons {
+    width: 50px;
+    margin: 10px;
+}
+
+.recetas {
+    display: inline;
+    background: #1a4d3c;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+a {
+    color: white;
+}
